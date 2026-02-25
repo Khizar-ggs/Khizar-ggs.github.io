@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Busy Day Schedule</title>
+<style>
+  /* Style the entire table */
+  table {
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #f0f4ff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style all table cells */
+  td, th {
+    border: 2px solid #5a5a8f;
+    padding: 10px;
+    text-align: left;
+  }
+
+  /* Style the table headers */
+  th {
+    background-color: #5a5a8f;
+    color: white;
+    font-size: 1.1em;
+  }
+
+  /* Style one specific row */
+  tr.highlight {
+    background-color: #d1e7dd; /* light green for a productive task */
+    font-weight: bold;
+  }
+
+  /* Style one specific column (using colgroup) */
+  col.timecol {
+    background-color: #eceaff;
+    width: 150px;
+  }
+</style>
+</head>
+
+<body>
+<h2 style="text-align:center;">My Busy Day Schedule</h2>
+
+<table>
+  <colgroup>
+    <col class="timecol">
+    <col>
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Activity</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>6:30 AM</td>
+      <td>Wake up</td>
+    </tr>
+    <tr>
+      <td>7:00 AM</td>
+      <td>Get ready for school</td>
+    </tr>
+    <tr>
+      <td>8:00 AM</td>
+      <td>School classes begin</td>
+    </tr>
+    <tr>
+      <td>10:30 AM</td>
+      <td>Break & quick snack</td>
+    </tr>
+    <tr class="highlight">
+      <td>12:00 PM</td>
+      <td>Math quiz (focus time!)</td>
+    </tr>
+    <tr>
+      <td>2:25 PM</td>
+      <td>School ends, head home</td>
+    </tr>
+    <tr>
+      <td>3:30 PM</td>
+      <td>Lunch & short rest</td>
+    </tr>
+    <tr>
+      <td>5:00 PM</td>
+      <td>Homework & project work</td>
+    </tr>
+    <tr>
+      <td>7:30 PM</td>
+      <td>Family dinner</td>
+    </tr>
+    <tr>
+      <td>9:30 PM</td>
+      <td>Relax & prepare for bed</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
